@@ -409,59 +409,59 @@ class NO_Linja(Locale_Type):
             _values=[
                 TieredPrice(
                     upper_peak_limit=2,
-                    value=263,
+                    value=275,
                 ),
                 TieredPrice(
                     upper_peak_limit=5,
-                    value=329,
+                    value=343,
                 ),
                 TieredPrice(
                     upper_peak_limit=10,
-                    value=395,
+                    value=411,
                 ),
                 TieredPrice(
                     upper_peak_limit=15,
-                    value=658,
+                    value=686,
                 ),
                 TieredPrice(
                     upper_peak_limit=20,
-                    value=789,
+                    value=824,
                 ),
                 TieredPrice(
                     upper_peak_limit=25,
-                    value=920,
+                    value=960,
                 ),
                 TieredPrice(
                     upper_peak_limit=50,
-                    value=1315,
+                    value=1375,
                 ),
                 TieredPrice(
                     upper_peak_limit=75,
-                    value=1446,
+                    value=1510,
                 ),
                 TieredPrice(
                     upper_peak_limit=100,
-                    value=1578,
+                    value=1646,
                 ),
                 TieredPrice(
                     upper_peak_limit=999,
-                    value=1973,
+                    value=2059,
                 ),
             ])
         
         """
-        Trinn 1	0-2	263
-        Trinn 2	2-5	329
-        Trinn 3	5-10	395
-        Trinn 4	10-15	658
-        Trinn 5	15-20	789
-        Trinn 6	20-25	920
-        Trinn 7	25-50	1 315
-        Trinn 8	50-75	1 446
-        Trinn 9	75-100	1 578
-        Trinn 10	Over 100	1 973
+            Trinn 1	0-2	275
+            Trinn 2	2-5	343
+            Trinn 3	5-10	411
+            Trinn 4	10-15	686
+            Trinn 5	15-20	824
+            Trinn 6	20-25	960
+            Trinn 7	25-50	1373
+            Trinn 8	50-75	1510
+            Trinn 9	75-100	1646
+            Trinn 10	100 og over	2059
         """
-    #docs: https://www.morenett.no/informasjon/nettleie-privat
+    #docs: https://www.linja.no/nettleige
 
 
 
